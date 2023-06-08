@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+small {
+  color: gray;
+  font-size: 12px;
+  font-style: italic;
+}
+input {
+  width: 30%;
+  margin-left: 1rem;
+}
+#button {
+  border: 1px solid rgb(82, 81, 81);
+  border-radius: 6px;
+  padding: 9px;
+  background-color: white;
+  width: 8rem;
+}
+#button:hover {
+  border: 1px solid blue;
+  cursor: pointer;
+}
